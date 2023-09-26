@@ -39,8 +39,7 @@ aside {
     text-align: center;
 }
 
-/* im tried with class in this case to testing new things */
-.aside-img {
+aside img {
     box-shadow: 0 0 2.5px rgb(8, 225, 245);
     width: 300px;
     height: auto;
