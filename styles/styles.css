@@ -40,8 +40,8 @@ aside {
 }
 
 aside img {
-    box-shadow: 0 0 2.5px rgb(8, 225, 245);
-    width: 300px;
+    box-shadow: 0 0 2px rgb(8, 225, 245);
+    width: 150px;
     height: auto;
 }
 
