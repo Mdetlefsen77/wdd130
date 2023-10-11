@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ FORM</title>
+    <link rel="stylesheet" href="./styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz
+        </h1>
+    </header>
+    <main>
+        <form action="quiz-form">
+            <div class="section">
+                <div class="form-item question1">
+                    <p>1.</p>
+                    <label for="q1"> What does acronym CSS stand for?</label>
+                </div>
+                <input type="text" id="q1">
+            </div>
+            <div class="section">
+                <div class="form-item question2">
+                    <p>2.</p>
+                    <label for="q2">How are id and class atributtes selected in CSS?</label>
+                </div>
+                <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+            </div>
+            <div class="section">
+                <div class="form-item question3">
+                    <p>3.</p>
+                    <label for="q3">Which of the following is not a valid HTML element?"</label>
+                </div>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose an option...</option>
+                    <option value="a"> A - bloackquote </option>
+                    <option value="b"> B - figcaption </option>
+                    <option value="c"> C - fetch </option>
+                </select>
+            </div>
+            <div class="section">
+                <div class="form-item question4">
+                    <p>4.</p>
+                    <label for="q4">What is the bottom margin given this declaration?</label>
+                </div>
+                <div>
+                    <img class="img-q4" src="./images/q4.PNG" alt="">
+                    <input type="text" id="q4">
+                </div>
+
+            </div>
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
