@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="The rafting site.">
+    <meta name="author" content="Martin Detlefsen">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Rafting Site Logo">
+        <nav class="navigation">
+            <a href="../index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./site-plan-rafting.html">Site Plan</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-title">
+            <h1>Contact Us</h1>
+        </section>
+        <div class="contact-container">
+            <section class="contact-information">
+                <div class="info">
+                    <h2>Location Information</h2>
+                    <p>
+                    <Address>Address: 123 Main Street, Anytown, CA 12345</Address>
+                    </p>
+                    <p>
+                        <Phone>Phone: (555) 555-5555</Phone>
+                    </p>
+                    <p>
+                        <Email>Email: <a href="mailto:info@rafting.com">info@rafting.com</a></Email>
+                    </p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96682.63306547808!2d-112.00305680190782!3d40.77670851969825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1697062085302!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <form>
+                <fieldset>
+                    <legend> Contact Information </legend>
+                    <div class="form-item column 2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column 2">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-item column1">
+                        <label for="browser">What is your porpuse of message?</label>
+                        <select name="browser" id="browser">
+                            <option value="gi">General Inquiry</option>
+                            <option value="rq">Reservation Question</option>
+                            <option value="ws">Website Suggestion</option>
+                        </select>
+                    </div>
+                    <legend> Message </legend>
+                    <div class="form-item column 2">
+                        <label for="msg"></label>
+                        <textarea name="msg" id="msg" cols="40" rows="7"></textarea>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" name="pet" id="pet">
+                    </div>
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="employees-profiles">
+            <figure>
+
+                <img src="images/matias-espinoza.jpg" alt="Mark Espinoza Profile ">
+                <div>
+                    <figcaption>Mark Espinoza</figcaption>
+                    <p>Safety Instructor</p>
+                </div>
+                <div class="testimonial">
+                    <h2>testimonial 1 </h2>
+                    <blockquote>""As a safety instructor for our rafting adventures, I have the privilege of ensuring
+                        that
+                        every guest has a safe and enjoyable time on the river. There's nothing quite like watching the
+                        excitement on their faces as they conquer the rapids. I appreciate the rigorous training and the
+                        emphasis on safety in our company. It's a fantastic feeling knowing I've contributed to making
+                        each
+                        adventure unforgettable.""</blockquote>
+                </div>
+            </figure>
+            <figure>
+
+                <img src="images/noelia-perez.jpg" alt="Sarah, River Guide ">
+                <div>
+                    <figcaption>Sarah Perez</figcaption>
+                    <p>River Guide</p>
+                </div>
+                <div class="testimonial">
+                    <h2>testimonial 2</h2>
+                    <blockquote>""Working as a river guide for our rafting adventures has been an absolute thrill. I get
+                        to
+                        share the beauty of nature with our guests and make every trip an unforgettable experience. The
+                        teamwork, camaraderie, and the sense of accomplishment at the end of a challenging run make this
+                        job
+                        incredibly rewarding. It's not just a job; it's a way of life, and I couldn't be happier.""
+                    </blockquote>
+                </div>
+
+            </figure>
+            <figure>
+
+                <img src="images/agustin-lopez.jpg" alt="Agustin Lopez Profile ">
+                <div>
+                    <figcaption>Agustin Lopez</figcaption>
+                    <p>Chief Rafting Guide</p>
+                </div>
+                <div class="testimonial">
+                    <h2>testimonial 3 </h2>
+                    <blockquote>""Capturing the essence of the rafting adventures through my camera lens has been a
+                        dream
+                        come true. The stunning landscapes, the thrill of the rapids, and the smiles on our guests'
+                        faces
+                        are all priceless moments I get to freeze in time. This job has not only improved my photography
+                        skills but has given me a profound appreciation for the beauty of the great outdoors. I'm living
+                        the
+                        dream, combining my passion for photography with the love of adventure.""</blockquote>
+                </div>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 Rafting Mountain Adventurers</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+        <nav class="social-links">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
